@@ -7,7 +7,6 @@ from typing import List, Optional, Tuple
 
 class PathFinder:
     def __init__(self, maze: List[List[str]]) -> None:
-        """Initializes the maze and symbols."""
         self.maze: List[List[str]] = maze
         self.start_symbol: str = "O"
         self.end_symbol: str = "X"
